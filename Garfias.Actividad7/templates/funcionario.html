@@ -8,17 +8,14 @@
     <form align="center" action="../dynamics/validacion.php" method="post">
       <fieldset>
         <legend align="center"><strong>Trabajador</strong></legend><br>
-        Ingresa tu Nombre(s):               <input type="text" name="nombre" pattern="[A-za-z]{3,25}\s?([A-za-z]{3,25})?"><br><br>
-        Ingresa tu Apellido Paterno:               <input type="text" name="aPaterno"><br><br>
-        Ingresa tu Apellido Materno:               <input type="text" name="aMaterno"><br><br>
-        Ingresa tu Fecha de Nacimiento  <input type="number" name="fNacimiento" placeholder="ddmmaaaa"><br><br>
-        Ingresa tu Colegio:               <input type="text" name="colegio"><br><br>
+        Ingresa tu Nombre(s):               <input type="text" name="nombre" pattern="[A-za-z]{3,25}\s?([A-za-z]{3,25})?" required><br><br>
+        Ingresa tu Apellido Paterno:               <input type="text" name="aPaterno" required ><br><br>
+        Ingresa tu Apellido Materno:               <input type="text" name="aMaterno" required><br><br>
+        Ingresa tu Fecha de Nacimiento  <input type="number" name="fNacimiento" placeholder="ddmmaaaa" required><br><br>
+        Ingresa tu Colegio:               <input type="text" name="colegio" required><br><br>
         Ingresa tu RFC:               <input type="text" name="RFC" pattern="[A-Za-z]{4}[0-9][0-9](0[1-9]|1[0-2])(0[1-9]|1[0-9]|2[0-9]|3[0-1])([0-9]|[A-Za-z]){3}"><br><br>
-        Ingresa tu Contraseña:           <input type="password" name="contraseña" placeholder="Mínimo 10 caracteres."><br><br>
+        Ingresa tu Contraseña:           <input type="password" name="contrasena" placeholder="Mínimo 10 caracteres. Utilizar mayúsculas y caracteres especiales" pattern="^((?=\S*[A-Z])(?=\S*[a-z])(?=\S*\d)(?=\S*[@$&%#!¡?¿.,]))\S{10,30}$"><br><br>
         <input type="submit" value="Enviar"><br>
-        <p><strong>¿Te equivocaste de categoría?</strong></p>
-        <a href="inicio.html">Regresar</a>
-
       </fieldset>
     </form>
 
