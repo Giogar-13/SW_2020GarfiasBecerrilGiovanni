@@ -1,0 +1,8 @@
+Garfias becerril Giovanni.
+
+
+Regex utilizada: (?<![a-zA-z])\[?(R|r)egex(?![A-Za-z])
+
+Texto donde se verificó: regex es algo genial. Hola soy un texto random que tiene la palabra "regex" 'regex "regex cool'
+escondida escondiregexda gracias a mi Regex, es posible regexpoderoso estoregex, y [Regex] mira (regex es curioso) (regex es curioso] mi dedo
+jaja Regex. O Regex Rehiogex regexregex
